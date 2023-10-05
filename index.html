@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Pastelería Rosita</h1>
+</header>
+
+<div class="container">
+    <div class="row">
+        <!-- prod JSON -->
+        <main id="items" class="col-sm-8 row"></main>
+        <!-- carrito -->
+        <aside class="col-sm-4">
+            <h2>Tus productos</h2>
+            <!-- prod  -->
+            <ul id="carrito" class="list-group"></ul>
+            <hr>
+            <!-- total -->
+            <p class="text-right">Total: &dollar; <span id="total"></span></p>
+            <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+            <button id="boton-comprar" class="btn btn-success">Comprar</button>
+            <button id="boton-historial" class="btn btn-info">Ver historial de compras</button>
+
+        </aside>
+    </div>
+</div>
+
+<footer>
+    <div class="icono">
+        <p>Conoce nuestras redes sociales</p>
+        <img src="./img/facebook_logo.png" alt="icono facebook">
+        <img src="./img/instagram_logo.png" alt="icono instagram">
+    </div>
+    <div class="info">
+        <p>Encuéntranos en</p>
+        <p>Av. Siempre Viva 742, Springfield</p>
+        <p>Cel: +569123123; +569321321</p>
+        <p>PASTELERIAROSITA@CONTACTO.CL</p>
+    </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="js/prod.js"></script>
+    <script src="js/cart.js"></script>
+    
+
+
+</body>
+</html>

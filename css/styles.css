@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Roboto:ital@0;1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #fbe9f8;
+}
+
+header{
+    background-color: #973371;
+    display: flex;
+    margin-bottom: 5%;
+    letter-spacing: 3px;
+}
+
+h1{
+    color: #fbe9f8;
+    font-weight: bold;
+    padding: 1%;
+}
+
+footer{
+    background-color: #973371;
+    margin-top: 5%;
+    display: flex;
+    margin-top: 40px;
+    padding: 40px;
+    width: 100%;
+    font-size: 15px;
+    color: #fbe9f8;
+}
+
+.icono{
+    flex-direction: row;
+    justify-content: space-around;
+    border:none;
+    margin-right: 20%;
+}
+
+.icono img{
+    margin: 5px;
+    width: 40px;
+}
+
+button{
+    margin: 2%;
+}
+
+#items img{
+    background-color: black;
+    height: 150px;
+    width: 150px;
+}
